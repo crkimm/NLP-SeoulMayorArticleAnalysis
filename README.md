@@ -1,2 +1,24 @@
-# NLP-SeoulMayorArticleAnalysis
-Analyzing social issues with key pledge keywords of the mayor of Seoul
+# 서울시장 핵심공약 키워드로 본 사회이슈
+- **소개** : Analyzing social issues with key pledge keywords of the mayor of Seoul
+- **기간** : 2021년 3월 24일 ~ 2021년 3월 31일
+- **목적**
+  1. 네이버 기사를 크롤링하여 단어 등장 빈도수로 당시의 사회이슈를 파악하고자 함
+  2. 시기별 사회이슈 변화 양상을 파악하고, 과거와 현재(2021년 38대)의 차이점을 확인하고자 함
+
+- **과정**
+  1. 선거범위 설정</br>
+      - 35대 2011.09.27 ~ 2011.10.26</br>
+      - 36대 2014.05.04 ~ 2014.06.03</br>
+      - 37대 2018.05.13 ~ 2018.06.12</br>
+      - 38대 2021.03.01 ~ 2021.03.24</br>
+
+  2. 검색 키워드 선정 및 크롤링
+     - '서울시장 핵심공약'
+  
+  3. 불용어처리
+  
+  4. 데이터 시각화 및 분석
+      - 워드클라우드
+      - bar 그래프
+      - heatmap
+      - ...
